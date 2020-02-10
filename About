@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+        border-right:1px solid #bbb;
+      }
+
+      li:last-child {
+        border-right: none;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+
+      .active {
+        background-color: #4CAF50;
+      }
+    </style>
+  </head>
+</html>
+  <body>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="About%20Nintendo.html">About</a></li>
+      <li><a href="Websites%20Ratings.html">Our Ratings</a></li>
+      <li style="float:right"><a href="Profile.html">Profile</a></li>
+    </ul>
+
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>About Nintendo</title>
+  </head>
+  <body>
+    <h1>About Nintendo</h1>
+    <p>Nintendo was a buisness created by Fusajiro Yamauchi orignaly nintendo was a card buisness when it was first created then turned into the loving gaming buisness we know and love right now Nintendo is owned by Doug Bowser and Shigeru Miyamoto.</p>
+    <img src="600px-Nintendo.svg.png" alt=nintendo logo>
+    <p>This website called NintendoWorld was created by to best friends we're not going to mention our names but we go by the names Coderwolf and Hihapeeps.</p>
+    <img src="Nintendo-World-Logo-2.png" alt=nintendo>
+  </body>
+</html>
